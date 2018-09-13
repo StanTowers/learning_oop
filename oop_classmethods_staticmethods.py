@@ -38,6 +38,7 @@ class Employee:
             return False
         return True
 
+
 emp_1 = Employee("Corey", "Schaefer", 50000)
 emp_2 = Employee("Test", "User", 60000)
 
@@ -45,7 +46,6 @@ import datetime
 my_date = datetime.date(2016, 7, 10)
 
 print(Employee.is_workday(my_date))
-
 
 
 # emp_str_1 = "John-Doe-70000"
