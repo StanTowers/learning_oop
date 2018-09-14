@@ -39,15 +39,14 @@ class Manager(Employee):
         if emp not in self.employees:
             self.employees.append(emp)
 
-
     def remove_emp(self, emp):
         if emp not in self.employees:
             self.employees.remove(emp)
 
-
     def print_emps(self):
         for emp in self.employees:
             print("-->", emp.fullname())
+
 
 dev_1 = Developer("Corey", "Schaefer", 50000, "Python")
 dev_2 = Developer("Test", "User", 60000, "Java")
