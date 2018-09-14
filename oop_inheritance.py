@@ -47,7 +47,6 @@ class Manager(Employee):
         for emp in self.employees:
             print("-->", emp.fullname())
 
-
 dev_1 = Developer("Corey", "Schaefer", 50000, "Python")
 dev_2 = Developer("Test", "User", 60000, "Java")
 
